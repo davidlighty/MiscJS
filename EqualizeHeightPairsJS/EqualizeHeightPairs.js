@@ -1,4 +1,5 @@
 ﻿$(function () {
+﻿    // .NET Ajax
     if (typeof Sys !== 'undefined') {
         var oPageRequestManager = Sys.WebForms.PageRequestManager.getInstance();
         if (oPageRequestManager != null) {
